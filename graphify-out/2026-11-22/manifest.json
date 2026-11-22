@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1795368535.1345756,
-    "ast_hash": "42c6267c370d3b09169b7ce31efce184",
+    "mtime": 1795371747.2198765,
+    "ast_hash": "44091d9ee85df822b39ee4c783e584a1",
     "semantic_hash": ""
   },
   ".claude/skills/brand/scripts/tests/test_sync_brand_to_tokens.py": {
@@ -1950,8 +1950,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1795368535.134212,
-    "ast_hash": "4e3223e13faad80e6338ddded02c5ced",
+    "mtime": 1795370995.2812233,
+    "ast_hash": "15ca5e083f50ad584f112e90e45a635f",
     "semantic_hash": ""
   },
   "CODE_OF_CONDUCT.md": {
@@ -2452,6 +2452,21 @@
   "stack/examples/juniper-audit/screenshots/wide-1920.png": {
     "mtime": 1794269703.2156038,
     "ast_hash": "343e9d1eae571446bc5e557a65873d1b",
+    "semantic_hash": ""
+  },
+  ".claude/README.md": {
+    "mtime": 1795370995.289464,
+    "ast_hash": "4fbaf09d5b6a4d5c365e8586336877db",
+    "semantic_hash": ""
+  },
+  ".claude/rules/memory-ops.md": {
+    "mtime": 1795370995.311568,
+    "ast_hash": "24e305b305e9f9b96916e3f47b71cdbe",
+    "semantic_hash": ""
+  },
+  "scripts/hooks/knowledge-sync.sh": {
+    "mtime": 1795371360.2512782,
+    "ast_hash": "9ca00e28188fb9c5572dc760186d988a",
     "semantic_hash": ""
   }
 }

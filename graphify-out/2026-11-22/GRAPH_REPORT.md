@@ -1,15 +1,16 @@
-# Graph Report - .  (2026-11-22)
+# Graph Report - ui-ux-pro-max-skill  (2026-11-22)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 441 files · ~807,034 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 6185 nodes · 8187 edges · 432 communities (339 shown, 93 thin omitted)
+- 6187 nodes · 8188 edges · 422 communities (328 shown, 94 thin omitted)
 - Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 632 edges (avg confidence: 0.75)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b82e004c`
+- Built from commit: `eeb49c61`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -333,23 +334,17 @@
 - padding-y
 - sm
 - padding-x
-- foreground
 - graphify reference: add a URL and watch a folder
 - graphify reference: commit hook and native CLAUDE.md integration
 - graphify reference: incremental update and cluster-only
-- muted-foreground
 - xl
 - none
 - PULL_REQUEST_TEMPLATE.md
 - What's New in v2.0
-- Architecture & Contributing
-- Có gì mới trong v2.0
 - validate_file
 - setup.sh
 - main
 - destructive
-- primary
-- primary-hover
 - 1
 - ring
 - graphify reference: GitHub clone and cross-repo merge
@@ -362,15 +357,11 @@
 - 3
 - 8
 - destructive
-- destructive-foreground
 - muted
-- primary-foreground
 - ring
-- secondary-foreground
 - .__init__
 - run-python.mjs
 - preview.spec.ts
-- Design System Command (Advanced)
 - smoke-domains.sh
 - smoke-stacks.sh
 - format_output
@@ -469,7 +460,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (432 total, 93 thin omitted)
+## Communities (422 total, 94 thin omitted)
 
 ### Community 0 - "StyleDetailModal.tsx"
 Cohesion: 0.05
@@ -708,8 +699,8 @@ Cohesion: 0.11
 Nodes (11): _normalize_rtl_level(), Resolve a deprecated in-domain alias, or expose a cross-domain redirect., Validate an rtl request. Returns None when RTL filtering is off., Row predicate for a validated rtl level ('all' accepts every level)., Main search function with auto-domain detection.      rtl: None (off) or one of, _rtl_row_filter(), search(), _style_search_destination() (+3 more)
 
 ### Community 59 - "[UI UX Pro Max](https://uupm.cc)"
-Cohesion: 0.07
-Nodes (27): 192 条行业特定推理规则, Catalog provenance 与刷新流程, Star 历史, [UI UX Pro Max](https://uupm.cc), v2.0 新特性, 使用 Claude Marketplace (Claude Code), 使用 CLI (推荐), 全局安装（适用于所有项目） (+19 more)
+Cohesion: 0.08
+Nodes (24): Catalog provenance 与刷新流程, Star 历史, [UI UX Pro Max](https://uupm.cc), 使用方式, 兼容的智能体, 前置要求, 功能特性, 🟢 基础版（本仓库） (+16 more)
 
 ### Community 60 - "search"
 Cohesion: 0.11
@@ -740,8 +731,8 @@ Cohesion: 0.08
 Nodes (25): Accessibility Patterns, Alternative: Tailwind-Only Setup, Best Practices, Common Patterns, Component Layer: shadcn/ui, Component Library Guide, Component + Styling Setup, Core Stack (+17 more)
 
 ### Community 67 - "_contrast_ratio"
-Cohesion: 0.22
-Nodes (8): _button_outline_text_color(), _contrast_ratio(), format_master_md(), Format design system as MASTER.md with hierarchical override logic., WCAG relative luminance of a #RRGGBB string, or None if unparseable., WCAG contrast ratio for two hex colors, or None if either is invalid., Primary for outline-button text when it is readable, else the foreground., _relative_luminance()
+Cohesion: 0.11
+Nodes (23): _button_outline_text_color(), _contrast_ratio(), _derive_dark_palette(), _detect_page_type(), format_master_md(), format_page_override_md(), _generate_intelligent_overrides(), persist_design_system() (+15 more)
 
 ### Community 68 - "Color Palette Management"
 Cohesion: 0.08
@@ -808,16 +799,16 @@ Cohesion: 0.08
 Nodes (23): Best Practices, Chart.js Integration, Command, Component Spec Pattern, Contextual Decision Flow, Decision System CSVs, Design System, Integration (+15 more)
 
 ### Community 84 - "design_system.py"
-Cohesion: 0.08
-Nodes (30): ansi_ljust(), _detect_page_type(), format_ascii_box(), format_markdown(), format_page_override_md(), generate_design_system(), _generate_intelligent_overrides(), hex_to_ansi() (+22 more)
+Cohesion: 0.11
+Nodes (17): ansi_ljust(), format_ascii_box(), format_markdown(), generate_design_system(), hex_to_ansi(), _mode_support_labels(), Light/dark support labels that agree with the product's anti-patterns.      A li, Convert hex color to ANSI True Color swatch (██) with fallback. (+9 more)
 
 ### Community 85 - "Tailwind CSS Customization"
 Cohesion: 0.09
 Nodes (22): @apply Directive, Best Practices, Color Customization, Complete Tailwind Config, Configuration Examples, Content Configuration, Custom Color Palette, Custom Font Sizes (+14 more)
 
 ### Community 86 - "DesignSystemGenerator"
-Cohesion: 0.17
-Nodes (5): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., TestReasoningMatch, TestReasoningContract
+Cohesion: 0.15
+Nodes (6): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords., TestReasoningMatch, TestReasoningContract
 
 ### Community 87 - "Tailwind CSS Customization"
 Cohesion: 0.09
@@ -828,8 +819,8 @@ Cohesion: 0.16
 Nodes (19): InitOptions, removeSkillDir(), uninstallCommand(), UninstallOptions, UpdateOptions, AI_FOLDERS, AIType, Asset (+11 more)
 
 ### Community 89 - "[UI UX Pro Max](https://uupm.cc)"
-Cohesion: 0.09
-Nodes (23): Cài đặt, Cài đặt toàn hệ thống (dùng cho mọi dự án), Các agent tương thích, Các lệnh CLI khác, Dành cho người dùng, Dành cho người đóng góp, Giấy phép, Kiến trúc & Đóng góp (+15 more)
+Cohesion: 0.05
+Nodes (41): 192 quy tắc suy luận dành riêng cho từng ngành, Chế độ Kỹ năng (tự động kích hoạt), Chế độ Quy trình (lệnh slash), Cài đặt, Cài đặt qua Claude Marketplace thất bại với lỗi "Zip file contains a symbolic link", Cài đặt toàn hệ thống (dùng cho mọi dự án), Các agent tương thích, Các lệnh CLI khác (+33 more)
 
 ### Community 90 - "evaluate"
 Cohesion: 0.17
@@ -840,16 +831,16 @@ Cohesion: 0.09
 Nodes (12): Add full color palette (50-950 shades) for a base color.          Args:, Generate Tailwind CSS configuration files., TailwindConfigGenerator, Test adding full color palette., Test plugin recommendations., Test initialization with default settings., Test generating config with plugins., Test writing configuration to file. (+4 more)
 
 ### Community 92 - "_select_palette_for_mode"
-Cohesion: 0.13
-Nodes (8): _palette_is_dark(), True when a colors.csv row's Background is a dark surface., Pick the highest-ranked palette matching the resolved mode.      Only the dark c, _select_palette_for_mode(), The exact reproduction from issue #428., TestEndToEndCoherence, TestLuminance, TestPaletteSelection
+Cohesion: 0.12
+Nodes (10): _derive_dark_palette(), _palette_is_dark(), True when a colors.csv row's Background is a dark surface., Keep product brand tokens while deriving accessible dark surfaces., Pick the highest-ranked palette matching the resolved mode.      Only the dark c, _select_palette_for_mode(), The exact reproduction from issue #428., TestEndToEndCoherence (+2 more)
 
 ### Community 93 - "read_rows"
 Cohesion: 0.15
 Nodes (6): read_rows(), split_values(), style_identities(), TestGeneratedCatalogContract, TestLandingAndStackContract, TestStyleIdentityContract
 
 ### Community 94 - "DesignSystemGenerator"
-Cohesion: 0.14
-Nodes (6): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords., TestReasoningMatch, TestReasoningContract
+Cohesion: 0.16
+Nodes (5): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., TestReasoningMatch, TestReasoningContract
 
 ### Community 95 - "read_rows"
 Cohesion: 0.15
@@ -872,16 +863,16 @@ Cohesion: 0.09
 Nodes (21): dependencies, next, next-themes, react, react-dom, devDependencies, autoprefixer, postcss (+13 more)
 
 ### Community 100 - "[UI UX Pro Max](https://uupm.cc)"
-Cohesion: 0.09
-Nodes (22): 192개의 산업별 추론 규칙, [UI UX Pro Max](https://uupm.cc), v2.0의 새로운 기능, 기능, 🟢 기본 버전(이 저장소), 💎 기본 버전과 프리미엄 버전 비교, 기여자 안내, 디자인 시스템 명령어(고급) (+14 more)
+Cohesion: 0.05
+Nodes (41): 192개의 산업별 추론 규칙, Claude.ai의 "Upload a skill" 대화상자에서 "Zip contains too many files (maximum 200)"가 표시되는 경우, Claude Marketplace 사용(Claude Code), Claude Marketplace 설치가 "Zip file contains a symbolic link" 오류로 실패하는 경우, CLI 사용(권장), `npm install -g ui-ux-pro-max-cli` 명령이 권한 오류로 실패하는 경우, [UI UX Pro Max](https://uupm.cc), `uipro uninstall` 실행 시 "No installed AI skill directories detected"가 표시되는 경우 (+33 more)
 
 ### Community 101 - "DesignSystemGenerator"
 Cohesion: 0.14
 Nodes (6): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Select best matching result based on priority keywords., TestReasoningMatch, TestReasoningContract
 
 ### Community 102 - "_select_palette_for_mode"
-Cohesion: 0.12
-Nodes (10): _derive_dark_palette(), _palette_is_dark(), True when a colors.csv row's Background is a dark surface., Keep product brand tokens while deriving accessible dark surfaces., Pick the highest-ranked palette matching the resolved mode.      Only the dark c, _select_palette_for_mode(), The exact reproduction from issue #428., TestEndToEndCoherence (+2 more)
+Cohesion: 0.13
+Nodes (8): _palette_is_dark(), True when a colors.csv row's Background is a dark surface., Pick the highest-ranked palette matching the resolved mode.      Only the dark c, _select_palette_for_mode(), The exact reproduction from issue #428., TestEndToEndCoherence, TestLuminance, TestPaletteSelection
 
 ### Community 103 - "read_rows"
 Cohesion: 0.15
@@ -904,8 +895,8 @@ Cohesion: 0.15
 Nodes (19): _e(), generate_chart_slide(), generate_cta_slide(), generate_deck(), generate_metrics_slide(), generate_problem_slide(), generate_solution_slide(), generate_testimonial_slide() (+11 more)
 
 ### Community 108 - "radius"
-Cohesion: 0.12
-Nodes (22): $type, $value, xl, $type, $value, $type, $value, $type (+14 more)
+Cohesion: 0.11
+Nodes (27): $type, $value, lg, sm, $type, $value, $type, $value (+19 more)
 
 ### Community 109 - "shadcn/ui Theming & Customization"
 Cohesion: 0.10
@@ -956,12 +947,12 @@ Cohesion: 0.16
 Nodes (17): generate_css_for_background(), get_background_image(), get_curated_images(), get_overlay_css(), get_pexels_search_url(), load_backgrounds_config(), load_brand_colors(), main() (+9 more)
 
 ### Community 121 - "gray"
-Cohesion: 0.11
-Nodes (19): $type, $value, $type, $value, $type, $value, $type, $value (+11 more)
+Cohesion: 0.09
+Nodes (23): $type, $value, $type, $value, $type, $value, $type, $value (+15 more)
 
 ### Community 122 - "color"
 Cohesion: 0.11
-Nodes (19): $type, $value, background, destructive-foreground, muted, primary-foreground, secondary, secondary-foreground (+11 more)
+Nodes (19): $type, $value, background, foreground, muted-foreground, primary, primary-hover, secondary (+11 more)
 
 ### Community 123 - "Asset Organization Guide"
 Cohesion: 0.11
@@ -981,7 +972,7 @@ Nodes (17): generate_css_for_background(), get_background_image(), get_curated_i
 
 ### Community 127 - "color"
 Cohesion: 0.11
-Nodes (19): $type, $value, background, foreground, muted-foreground, primary, primary-hover, secondary (+11 more)
+Nodes (19): $type, $value, background, destructive-foreground, primary, primary-foreground, secondary, secondary-foreground (+11 more)
 
 ### Community 128 - "Brand Consistency Checklist"
 Cohesion: 0.11
@@ -1040,7 +1031,7 @@ Cohesion: 0.13
 Nodes (3): TestFixtureValidation, TestMetricMath, TestThresholdGate
 
 ### Community 142 - "CLAUDE.md"
-Cohesion: 0.12
+Cohesion: 0.13
 Nodes (7): Architecture, Git Workflow, graphify, Prerequisites, Project Overview, Search Command, Sync Rules
 
 ### Community 143 - "Design Principles"
@@ -1056,8 +1047,8 @@ Cohesion: 0.21
 Nodes (14): cip(), _Config, _image_response(), load_cip(), Offline regression tests for cip/generate.py (no network, stubbed genai)., Return a loader for a fresh cip/generate.py with google.genai stubbed.      cip/, _run_main(), test_main_exits_0_when_part_of_a_set_is_generated() (+6 more)
 
 ### Community 146 - "fontSize"
-Cohesion: 0.12
-Nodes (16): $type, $value, $type, $value, $type, $value, $type, $value (+8 more)
+Cohesion: 0.11
+Nodes (20): $type, $value, $type, $value, $type, $value, $type, $value (+12 more)
 
 ### Community 147 - "ShadcnInstaller"
 Cohesion: 0.23
@@ -1108,8 +1099,8 @@ Cohesion: 0.13
 Nodes (14): AIDA (Attention-Interest-Desire-Action), Before-After-Bridge, Contrast Patterns, Copywriting Formulas, Core Formulas, Cost of Inaction, FAB (Features-Advantages-Benefits), Formula-to-Slide Mapping (+6 more)
 
 ### Community 162 - "color"
-Cohesion: 0.19
-Nodes (15): $type, $value, 500, green, red, white, yellow, 500 (+7 more)
+Cohesion: 0.15
+Nodes (21): $type, $value, $type, $value, 500, 600, blue, green (+13 more)
 
 ### Community 163 - "Copywriting Formulas"
 Cohesion: 0.13
@@ -1192,12 +1183,12 @@ Cohesion: 0.14
 Nodes (13): Card Styles, Component Variants, CSS Structures, Feature Grid (3 columns), Layout Decision Flow, Layout Patterns, Layout Selection by Use Case, Metric Styles (+5 more)
 
 ### Community 183 - "parse_decision_rules"
-Cohesion: 0.15
-Nodes (9): Find matching reasoning rule for a category., Apply reasoning rules to search results., Select best matching result based on priority keywords., apply_decision_rules(), _object_without_duplicates(), parse_decision_rules(), Return deterministic mutations and an audit trail; never execute data., Parse the canonical condition -> action-array representation. (+1 more)
-
-### Community 184 - "parse_decision_rules"
 Cohesion: 0.19
 Nodes (8): Find matching reasoning rule for a category., Apply reasoning rules to search results., apply_decision_rules(), _object_without_duplicates(), parse_decision_rules(), Return deterministic mutations and an audit trail; never execute data., Parse the canonical condition -> action-array representation., _validate_action()
+
+### Community 184 - "parse_decision_rules"
+Cohesion: 0.15
+Nodes (9): Find matching reasoning rule for a category., Apply reasoning rules to search results., Select best matching result based on priority keywords., apply_decision_rules(), _object_without_duplicates(), parse_decision_rules(), Return deterministic mutations and an audit trail; never execute data., Parse the canonical condition -> action-array representation. (+1 more)
 
 ### Community 185 - "Banner Design - Multi-Format Creative Banner System"
 Cohesion: 0.14
@@ -1236,8 +1227,8 @@ Cohesion: 0.14
 Nodes (13): compilerOptions, baseUrl, esModuleInterop, jsx, module, moduleResolution, outDir, paths (+5 more)
 
 ### Community 194 - "[UI UX Pro Max](https://uupm.cc)"
-Cohesion: 0.14
-Nodes (14): Automated Releases, 🟢 Basic Version (This Repository), 💎 Basic vs. Premium Version Comparison, Before/after: ops dashboard, Compatible Agents, Examples, Features, License (+6 more)
+Cohesion: 0.10
+Nodes (21): Architecture & Contributing, Automated Releases, 🟢 Basic Version (This Repository), 💎 Basic vs. Premium Version Comparison, Before/after: ops dashboard, Catalog provenance and refresh, Compatible Agents, Design System Command (Advanced) (+13 more)
 
 ### Community 195 - "parse_decision_rules"
 Cohesion: 0.19
@@ -1276,16 +1267,16 @@ Cohesion: 0.15
 Nodes (12): component, $type, $value, dark, semantic, $schema, $type, $value (+4 more)
 
 ### Community 204 - "card"
-Cohesion: 0.15
-Nodes (17): $type, $value, $type, $value, bg, bg, border, padding (+9 more)
+Cohesion: 0.20
+Nodes (12): $type, $value, bg, bg, padding, shadow, card, bg (+4 more)
 
 ### Community 205 - ".generate_config_string"
 Cohesion: 0.20
 Nodes (6): Generate configuration file content.          Returns:             Configuration, Generate TypeScript configuration., Generate JavaScript configuration., Format plugins array for config.          Validates each plugin name against a s, Add indentation to JSON string., Write configuration to file.          Returns:             Tuple of (success, me
 
 ### Community 206 - "_contrast_ratio"
-Cohesion: 0.18
-Nodes (10): _button_outline_text_color(), _contrast_ratio(), _derive_dark_palette(), format_master_md(), Format design system as MASTER.md with hierarchical override logic., WCAG relative luminance of a #RRGGBB string, or None if unparseable., WCAG contrast ratio for two hex colors, or None if either is invalid., Keep product brand tokens while deriving accessible dark surfaces. (+2 more)
+Cohesion: 0.22
+Nodes (8): _button_outline_text_color(), _contrast_ratio(), format_master_md(), Format design system as MASTER.md with hierarchical override logic., WCAG relative luminance of a #RRGGBB string, or None if unparseable., WCAG contrast ratio for two hex colors, or None if either is invalid., Primary for outline-button text when it is readable, else the foreground., _relative_luminance()
 
 ### Community 207 - "_resolve_color_mode"
 Cohesion: 0.21
@@ -1304,8 +1295,8 @@ Cohesion: 0.24
 Nodes (3): read_rows(), RtlCliTest, RtlDataContractTest
 
 ### Community 211 - "card"
-Cohesion: 0.20
-Nodes (12): $type, $value, bg, bg, padding, shadow, card, bg (+4 more)
+Cohesion: 0.15
+Nodes (17): $type, $value, $type, $value, bg, bg, border, padding (+9 more)
 
 ### Community 212 - ".generate_config_string"
 Cohesion: 0.20
@@ -1368,16 +1359,16 @@ Cohesion: 0.20
 Nodes (9): Common Structures, Duarte Sparkline Pattern, Matching Strategy to Context, Product Demo (6 slides), Sales Pitch (9 slides), Search Commands, Slide Strategies, Strategy Selection (+1 more)
 
 ### Community 230 - "blue"
-Cohesion: 0.27
-Nodes (10): $type, $value, $type, $value, 50, 600, blue, 50 (+2 more)
+Cohesion: 0.60
+Nodes (5): $type, $value, border, border, border
 
 ### Community 231 - "button"
 Cohesion: 0.20
 Nodes (10): fg, font-size, hover-bg, button, $type, $value, $type, $value (+2 more)
 
 ### Community 232 - "duration"
-Cohesion: 0.20
-Nodes (10): fast, normal, slow, $type, $value, $type, $value, duration (+2 more)
+Cohesion: 0.18
+Nodes (11): fast, normal, slow, $type, $value, $type, $value, primitive (+3 more)
 
 ### Community 233 - "Slide Strategies"
 Cohesion: 0.20
@@ -1472,8 +1463,8 @@ Cohesion: 0.25
 Nodes (8): _exact_row_identity(), Suggest complete public identities so a retry can bypass score thresholds., Return non-empty public identities from ordinary and alias fields., Resolve an explicit style identity without opening generic variant ranking., Return one row whose stable public identity exactly matches the query., _row_identities(), _style_identity(), _suggest_identities()
 
 ### Community 256 - "input"
-Cohesion: 0.29
-Nodes (8): padding-y, input, $type, $value, focus-ring, padding-y, $type, $value
+Cohesion: 0.20
+Nodes (12): padding-x, padding-y, input, $type, $value, focus-ring, padding-x, padding-y (+4 more)
 
 ### Community 257 - "ui-ux-pro-max-cli"
 Cohesion: 0.25
@@ -1488,12 +1479,12 @@ Cohesion: 0.25
 Nodes (8): 🐛 Bug Fixes, 🔧 CLI Improvements, 📝 Documentation Improvements, 🎨 New Color Palettes, 🏭 New Industry Reasoning Rules, ✨ New UI Styles, 🌍 Translations, Ways to Contribute
 
 ### Community 260 - "문제 해결"
-Cohesion: 0.25
-Nodes (8): Claude.ai의 "Upload a skill" 대화상자에서 "Zip contains too many files (maximum 200)"가 표시되는 경우, Claude Marketplace 설치가 "Zip file contains a symbolic link" 오류로 실패하는 경우, `npm install -g ui-ux-pro-max-cli` 명령이 권한 오류로 실패하는 경우, `uipro uninstall` 실행 시 "No installed AI skill directories detected"가 표시되는 경우, `uipro: unknown command 'uninstall'` 또는 `unknown command 'update'`, 디자인 시스템 명령어 실행 시 Python을 찾을 수 없는 경우, 디자인 시스템 출력 또는 필드가 잘리는 경우, 문제 해결
+Cohesion: 0.40
+Nodes (5): 使用 Claude Marketplace (Claude Code), 使用 CLI (推荐), 全局安装（适用于所有项目）, 其他 CLI 命令, 安装
 
 ### Community 261 - "Khắc phục sự cố"
-Cohesion: 0.25
-Nodes (8): Cài đặt qua Claude Marketplace thất bại với lỗi "Zip file contains a symbolic link", Hộp thoại "Upload a skill" của Claude.ai báo "Zip contains too many files (maximum 200)", Không tìm thấy Python khi chạy lệnh tạo hệ thống thiết kế, Khắc phục sự cố, `npm install -g ui-ux-pro-max-cli` thất bại do lỗi quyền truy cập, `uipro uninstall` báo "No installed AI skill directories detected", `uipro: unknown command 'uninstall'` hoặc `unknown command 'update'`, Đầu ra hệ thống thiết kế bị cắt hoặc thiếu trường
+Cohesion: 0.50
+Nodes (4): 192 条行业特定推理规则, v2.0 新特性, 智能设计系统生成, 设计系统生成的工作原理
 
 ### Community 262 - "故障排查"
 Cohesion: 0.25
@@ -1600,16 +1591,16 @@ Cohesion: 0.47
 Nodes (5): npx, @playwright/mcp, chrome-devtools, playwright, shadcn
 
 ### Community 292 - "사용법"
-Cohesion: 0.33
-Nodes (6): 사용법, 스킬 모드(자동 활성화), 워크플로 모드(슬래시 명령어), 작동 방식, 지원 스택, 프롬프트 예시
+Cohesion: 0.67
+Nodes (3): destructive-foreground, $type, $value
 
 ### Community 293 - "Cách sử dụng"
-Cohesion: 0.33
-Nodes (6): Chế độ Kỹ năng (tự động kích hoạt), Chế độ Quy trình (lệnh slash), Các stack được hỗ trợ, Cách hoạt động, Cách sử dụng, Prompt mẫu
+Cohesion: 0.67
+Nodes (3): muted, $type, $value
 
 ### Community 294 - "使用方式"
-Cohesion: 0.33
-Nodes (6): 使用方式, 工作原理, 工作流模式 (斜杠命令), 技能模式 (自动激活), 支持的技术栈, 示例提示词
+Cohesion: 0.67
+Nodes (3): primary-foreground, $type, $value
 
 ### Community 297 - "CLAUDE.md — Website Design Stack"
 Cohesion: 0.33
@@ -1624,8 +1615,8 @@ Cohesion: 0.60
 Nodes (5): $type, $value, 700, 700, 700
 
 ### Community 300 - "lg"
-Cohesion: 0.60
-Nodes (5): lg, $type, $value, lg, lg
+Cohesion: 0.67
+Nodes (3): secondary-foreground, $type, $value
 
 ### Community 301 - "radius"
 Cohesion: 0.60
@@ -1636,8 +1627,8 @@ Cohesion: 0.40
 Nodes (4): Brand Guidelines Template, Document Structure, Extractable Fields, Usage
 
 ### Community 303 - "$type"
-Cohesion: 0.60
-Nodes (5): $type, $value, border, border, border
+Cohesion: 0.67
+Nodes (3): foreground, $type, $value
 
 ### Community 304 - "radius"
 Cohesion: 0.60
@@ -1664,8 +1655,8 @@ Cohesion: 0.40
 Nodes (5): Global Install (Available for All Projects), Installation, Other CLI Commands, Using Claude Marketplace (Claude Code), Using CLI (Recommended)
 
 ### Community 311 - "설치"
-Cohesion: 0.40
-Nodes (5): Claude Marketplace 사용(Claude Code), CLI 사용(권장), 기타 CLI 명령어, 설치, 전역 설치(모든 프로젝트에서 사용)
+Cohesion: 0.67
+Nodes (3): muted-foreground, $type, $value
 
 ### Community 312 - "Security Policy"
 Cohesion: 0.40
@@ -1688,16 +1679,8 @@ Cohesion: 0.67
 Nodes (4): padding-y, padding-y, $type, $value
 
 ### Community 317 - "sm"
-Cohesion: 0.60
-Nodes (5): sm, sm, sm, $type, $value
-
-### Community 318 - "padding-x"
 Cohesion: 0.67
-Nodes (4): padding-x, padding-x, $type, $value
-
-### Community 319 - "foreground"
-Cohesion: 0.67
-Nodes (3): foreground, $type, $value
+Nodes (3): primary-hover, $type, $value
 
 ### Community 320 - "graphify reference: add a URL and watch a folder"
 Cohesion: 0.50
@@ -1710,10 +1693,6 @@ Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify refer
 ### Community 322 - "graphify reference: incremental update and cluster-only"
 Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
-
-### Community 323 - "muted-foreground"
-Cohesion: 0.67
-Nodes (3): muted-foreground, $type, $value
 
 ### Community 324 - "xl"
 Cohesion: 0.67
@@ -1731,14 +1710,6 @@ Nodes (3): Checklist, What does this PR change?, Why?
 Cohesion: 0.50
 Nodes (4): 192 Industry-Specific Reasoning Rules, How Design System Generation Works, Intelligent Design System Generation, What's New in v2.0
 
-### Community 328 - "Architecture & Contributing"
-Cohesion: 0.50
-Nodes (4): Architecture & Contributing, Catalog provenance and refresh, For Contributors, For Users
-
-### Community 329 - "Có gì mới trong v2.0"
-Cohesion: 0.50
-Nodes (4): 192 quy tắc suy luận dành riêng cho từng ngành, Cách hệ thống thiết kế được tạo ra, Có gì mới trong v2.0, Tạo hệ thống thiết kế thông minh
-
 ### Community 330 - "validate_file"
 Cohesion: 0.67
 Nodes (3): main(), Path, validate_file()
@@ -1750,14 +1721,6 @@ Nodes (3): cyan(), green(), setup.sh script
 ### Community 333 - "destructive"
 Cohesion: 0.67
 Nodes (3): destructive, $type, $value
-
-### Community 334 - "primary"
-Cohesion: 0.67
-Nodes (3): primary, $type, $value
-
-### Community 335 - "primary-hover"
-Cohesion: 0.67
-Nodes (3): primary-hover, $type, $value
 
 ### Community 336 - "1"
 Cohesion: 0.67
@@ -1783,34 +1746,18 @@ Nodes (3): $type, $value, 8
 Cohesion: 0.67
 Nodes (3): destructive, $type, $value
 
-### Community 350 - "destructive-foreground"
-Cohesion: 0.67
-Nodes (3): destructive-foreground, $type, $value
-
 ### Community 351 - "muted"
 Cohesion: 0.67
 Nodes (3): muted, $type, $value
-
-### Community 352 - "primary-foreground"
-Cohesion: 0.67
-Nodes (3): primary-foreground, $type, $value
 
 ### Community 353 - "ring"
 Cohesion: 0.67
 Nodes (3): ring, $type, $value
 
-### Community 354 - "secondary-foreground"
-Cohesion: 0.67
-Nodes (3): secondary-foreground, $type, $value
-
-### Community 358 - "Design System Command (Advanced)"
-Cohesion: 0.67
-Nodes (3): Design System Command (Advanced), Persist Design System (Master + Overrides Pattern), RTL Compatibility (`--rtl`)
-
 ## Knowledge Gaps
-- **2379 isolated node(s):** `$schema`, `$value`, `$type`, `$value`, `$type` (+2374 more)
+- **2380 isolated node(s):** `knowledge-sync.sh script`, `$schema`, `$value`, `$type`, `$value` (+2375 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **93 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **94 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -1820,7 +1767,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `search()` connect `search` to `search_stack`, `validate_data.py`, `detect_domain`, `.generate`, `BM25`, `TestTextLayoutDataContracts`, `core.py`, `RtlCliTest`, `design_system.py`, `TestStyleTaxonomy`, `_suggest_identities`, `TestImeGuidance`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Why does `search()` connect `search` to `TestImeGuidance`, `validate_data.py`, `TestStyleTaxonomy`, `search_stack`, `detect_domain`, `.generate`, `BM25`, `TestTextLayoutDataContracts`, `core.py`, `RtlCliTest`, `design_system.py`, `_suggest_identities`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Are the 67 inferred relationships involving `DesignSystemGenerator` (e.g. with `TestBm25CoreBehavior` and `TestDiagnosticsContracts`) actually correct?**
   _`DesignSystemGenerator` has 67 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 40 inferred relationships involving `TailwindConfigGenerator` (e.g. with `TestGeneratedConfigIsValidJs` and `.test_node_check_parses_generated_config()`) actually correct?**
